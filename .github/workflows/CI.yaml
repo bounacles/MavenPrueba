@@ -1,4 +1,4 @@
-name: Maven Build
+name: CI Test
 
 on: [pull_request]
 #  push:
