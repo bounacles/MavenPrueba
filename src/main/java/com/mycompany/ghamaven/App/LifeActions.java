@@ -17,13 +17,14 @@ public class LifeActions {
     
     static void morir (Persona persona)
     {
-        persona.setAlive(false);
+        //persona.setAlive(false);
+        throw new NotImplementedException("Método no implementado");
     }
     
     static boolean mayorDeEdad(Persona persona)
     {
-        
-        return persona.getAge()>= 18;
+        throw new NotImplementedException("Método no implementado");
+        //return persona.getAge()>= 18;
     }
     
 }
