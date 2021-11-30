@@ -22,7 +22,8 @@ public class LifeActions {
     
     static boolean mayorDeEdad(Persona persona)
     {
-        return (persona.getAge()>= 18);
+        
+        return persona.getAge()>= 18;
     }
     
 }
