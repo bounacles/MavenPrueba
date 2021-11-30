@@ -35,10 +35,10 @@ public class Persona {
     public void hBirthday()
     {
         
-       // if(alive)
-       // {
+        if(alive)
+        {
             this.age++;
-       // }
+        }
     }
     
     //Getters & Setters
