@@ -47,7 +47,7 @@ public class LifeActionsTest {
         LifeActions.morir(persona);
         
         boolean resultD = persona.isAlive();
-        boolean expResultD = true;
+        boolean expResultD = false;
         
         assertEquals(expResultA, resultA);
         assertEquals(expResultD, resultD);
@@ -69,10 +69,9 @@ public class LifeActionsTest {
         boolean expResult18 = true;
         boolean expResult19 = true;
         
-        assertEquals(expResult17, result17);
-        
-        //assertEquals(expResult18, result18);
-        //assertEquals(expResult19, result19);
+        assertEquals(result17, expResult17);       
+        assertEquals(result18, expResult18);
+        assertEquals(result19, expResult19);
         
     }
     
