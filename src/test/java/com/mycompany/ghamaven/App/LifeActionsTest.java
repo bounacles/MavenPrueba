@@ -70,6 +70,7 @@ public class LifeActionsTest {
         boolean expResult19 = true;
         
         assertEquals(expResult17, result17);
+        assertEquals(18, persona18.getAge());
         assertEquals(expResult18, result18);
         assertEquals(expResult19, result19);
         
