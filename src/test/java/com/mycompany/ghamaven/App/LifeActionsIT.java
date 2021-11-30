@@ -6,8 +6,9 @@
 package com.mycompany.ghamaven.App;
 
 import com.mycompany.ghamaven.Persona;
-import org.junit.Test;
-import static org.junit.Assert.*;
+
+
+import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
@@ -18,7 +19,7 @@ public class LifeActionsIT {
     public LifeActionsIT() {
     }
 
-    @Test
+    @org.junit.Test
     public void testDead() {
         
         Persona persona = new Persona("a","b",80);
@@ -35,7 +36,7 @@ public class LifeActionsIT {
         
     }
     
-    @Test
+    @org.junit.Test
     public void testMayorDeEdad() {
         
         Persona persona17 = new Persona("a","b",17);
